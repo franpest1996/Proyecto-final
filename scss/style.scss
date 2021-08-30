@@ -283,21 +283,6 @@ p img{
     width: 400px;
 }
 
-/* Index con Grid y Mobile First*/
-
-#gridIndex{
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-areas:"header"
-    "nav"
-    "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: .5fr;
-}
-
-
-
 /* Contenido Pagina Videos */
 
 .videosPages iframe{
@@ -425,6 +410,8 @@ form{
         letter-spacing: .2rem;
     }
     .menuIndex{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
         padding: 1rem;
         width: 300px;
     }
