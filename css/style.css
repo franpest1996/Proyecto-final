@@ -329,19 +329,19 @@ form {
 
 @media (max-width: 576px) {
   #headerIndex {
-    height: 55px; }
+    height: 70px; }
   #headerIndex h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: auto;
     word-spacing: .2rem;
     letter-spacing: .2rem; }
   .menuIndex {
-    padding: 2.5rem;
+    padding: 1rem;
     width: 250px; }
   .menuIndex a {
     font-size: 2rem; }
   #headerIndex .tituloPagina {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: auto; }
   .social {
     margin: 0;
