@@ -53,6 +53,10 @@ h2{
     font-family: 'Julius Sans One', sans-serif;
 }
 
+ol, ul {
+    padding-left: 0;
+}
+
 /* Navegacion Index */
 .menuIndex{
     font-family: 'Monoton', cursive;
@@ -121,7 +125,7 @@ h2{
     margin-bottom: 0;
 }
 
-.navPages ul ul{
+.menuPages ul{
     list-style: none;
     padding: 0;
     position: absolute;
@@ -131,14 +135,14 @@ h2{
     border-radius: .5rem;
     
 }
-.navPages  ul ul li {
+.menuPages ul li {
     list-style: none;
     display: block;
     width: 95%;
     overflow: hidden;
 }
 
-.navPages ul li:hover ul{
+.menuPages li:hover ul{
     display: block;
 }
 
@@ -396,6 +400,18 @@ form{
 @media(max-width:768px){
     #headerIndex h1{
         font-size: 3.5rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuPages li{
+        width: 100%;
+    }
+    .menuPages__menu--titulos li{
+        width: 100%;
     }
 }
 
