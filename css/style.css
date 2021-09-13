@@ -262,28 +262,10 @@ p img {
   height: 300px;
   margin: 1rem; }
 
-.galeria__imagen--redondeada {
-  border-radius: 1rem; }
-
-.galeria__imagen--borde {
-  border: 10px double black; }
-
-.galeria__imagen--circulo {
-  border-radius: 10rem; }
-
-.galeria__imagen--agrandar {
-  transition: 1s; }
-
-.galeria__imagen--agrandar:hover {
-  width: 400px;
-  height: 300px; }
-
-.galeria__imagen--achicar {
-  transition: 1s; }
-
-.galeria__imagen--achicar:hover {
-  width: 200px;
-  height: 150px; }
+.galeria__imagen--vertical {
+  width: 300px;
+  height: 400px;
+  margin: 1rem; }
 
 /* Formulario*/
 form {
