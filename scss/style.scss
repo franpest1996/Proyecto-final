@@ -94,6 +94,29 @@ ol, ul {
     flex-direction: column;
 }
 
+/* Menu Footer */
+
+
+.navFooter a{
+    color: white;
+    text-decoration: none;
+}
+
+.navFooter li{ 
+    width: 15rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+.navFooter{
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 4rem 0 0 5rem;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Navegacion Paginas*/
 
 .menuPages a{
@@ -347,15 +370,16 @@ form{
 
 .footerPages{
     width: 100%;
-    height: 100px;
     background-color: #690000;
+    display: flex;
+    justify-content: space-between;
 }
  
 .social{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-right: 7rem;
+    margin: 2.5rem 7rem 3rem 0;
 }
 
 .social img{
@@ -389,6 +413,7 @@ form{
     .menuPages__menu--titulos li{
         width: 100%;
     }
+
 }
 
 @media(max-width:576px){
@@ -422,6 +447,19 @@ form{
     #headerPages .tituloPagina{
         font-size: 1.2rem;
         margin: auto;
+    }
+
+    .footerPages{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navFooter{
+        margin: 2rem 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .social{
