@@ -50,6 +50,7 @@ header h2{
 h2{
     margin: 20px;
     font-size: 30px;
+    font-weight: bold;
     font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -386,11 +387,25 @@ p img{
 /* Formulario*/
 
 form{
-    font-size: 3rem
+    padding: 2rem;
+    font-size: 3rem;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.form-control{
+    height: 5rem;
+    font-size: 1.5rem;
 }
 
 .boton{
+    font-size: 2rem;
     float: right;
+    width: 10rem;
+    height: 5rem;
+}
+
+#consulta{
+    font-size: 1.5rem;
 }
 
 /* Redes Sociales*/
