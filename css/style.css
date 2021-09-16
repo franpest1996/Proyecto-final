@@ -311,12 +311,12 @@ p img {
 /* Formulario*/
 form {
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-family: 'Julius Sans One', sans-serif; }
 
 .form-control {
   height: 5rem;
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
 
 .boton {
   font-size: 2rem;
@@ -325,7 +325,7 @@ form {
   height: 5rem; }
 
 #consulta {
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
 
 /* Redes Sociales*/
 .footerPages {
