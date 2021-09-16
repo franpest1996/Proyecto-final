@@ -119,12 +119,41 @@ ol, ul {
 
 /* Navegacion Paginas*/
 
+.navbar{
+    padding: 0;
+    background-color: #750e0e;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+
 .menuPages a{
     color: white;
     text-decoration: none;
 }
 
+.navbar-toggler{
+    background-color: #4a0000;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
 
+.menuResponsive{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.menuResponsive img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
 
 .navPages{
     text-align: center;
@@ -395,6 +424,15 @@ form{
 
 /* Media Queries */
 
+@media(min-width: 768px){
+    .navbar-toggler{
+        display: none;
+    }
+    navbar-brand{
+        display: none;
+    }
+}
+
 @media(max-width:768px){
     #headerIndex h1{
         font-size: 3.5rem;
@@ -404,6 +442,7 @@ form{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        display: none;
     }
     .menuPages li{
         width: 100%;
@@ -411,7 +450,6 @@ form{
     .menuPages__menu--titulos li{
         width: 100%;
     }
-
 }
 
 @media(max-width:576px){
